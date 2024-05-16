@@ -1,0 +1,41 @@
+const dark = {
+  background: '#051933',
+  subBackground: '#0b2a52',
+  title: '#FFFFFF',
+  text: '#FFFFFF',
+  white: '#FFFFFF',
+  // black: '#000000',
+  black: '#FFFFFF',
+  gray: '#093245',
+  lastSeen: '#093245',
+  // button: '#A3FEBF',
+  button: '#2a663c',
+  selectedButton: '#093245',
+  // input: '#FFFFFF',
+  input: '#0b2a52',
+  headerColor: '#2a663c',
+  listBackground: '#2a663c',
+  productBorder: '#c2c2c2',
+};
+
+const light = {
+  background: '#FFFFFF',
+  subBackground: '#ffffdd',
+  title: '#051933',
+  text: '#000000',
+  white: '#000000',
+  // black: '#FFFFFF',
+  black: '#555555',
+  gray: '#ebebeb',
+  lastSeen: '#ccefff',
+  // button: '#2a663c',
+  button: '#A3FEBF',
+  selectedButton: '#ffffdd',
+  // input: '#0b2a52',
+  input: '#ffffdd',
+  headerColor: '#A3FEBF',
+  listBackground: '#A3FEBF',
+  productBorder: '#555555',
+};
+
+export { dark, light };
